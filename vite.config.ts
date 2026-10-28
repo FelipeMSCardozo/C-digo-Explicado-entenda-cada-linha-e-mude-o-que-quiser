@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: '/C-digo-Explicado-entenda-cada-linha-e-mude-o-que-quiser/',
+  base: './',
   plugins: [
     react(),
     VitePWA({
@@ -16,7 +16,7 @@ export default defineConfig({
         theme_color: '#0D1117',
         background_color: '#0D1117',
         display: 'standalone',
-        start_url: '/C-digo-Explicado-entenda-cada-linha-e-mude-o-que-quiser/#/',
+        start_url: './',
         icons: [
           {
             src: 'favicon.svg',
